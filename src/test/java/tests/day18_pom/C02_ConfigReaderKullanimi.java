@@ -14,7 +14,7 @@ public class C02_ConfigReaderKullanimi {
         // facebook anasayfaya gidin
         Driver.getDriver().get(ConfigReader.getProperty("facebookUrl"));
         // cikarsa cookies kabul edin
-        facebookPage.cookieButonu.click();
+        //facebookPage.cookieButonu.click();
         // kullanici mail kutusuna yanlis kullanici ismi yazdirin
         facebookPage.mailKutusu.sendKeys(ConfigReader.getProperty("fbWrongUsername"));
         // kullanici sifre kutusuna yanlis password yazdirin
