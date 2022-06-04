@@ -25,7 +25,7 @@ public class Driver {
     baska classlarda olusturulan objelerden kullanilamaz
      */
 
-    public Driver() {
+    private Driver() {
 
     }
     static WebDriver driver;

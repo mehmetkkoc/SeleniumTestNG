@@ -28,7 +28,7 @@ public class C03_PositifLoginTestiRaporlu extends TestBaseRapor {
         brcPage.emailTextBox.sendKeys(ConfigReader.getProperty("brcValidEmail"));
         extentTest.info("gecerli mail yazildi");
         // test data password : 12345
-        brcPage.passwordTextBox.sendKeys(ConfigReader.getProperty("brcWrongPassword"));
+        brcPage.passwordTextBox.sendKeys(ConfigReader.getProperty("brcValidPassword"));
         extentTest.info("gecerli password yazildi");
         // login butonuna tiklayin
         brcPage.ikinciLoginButonu.click();
