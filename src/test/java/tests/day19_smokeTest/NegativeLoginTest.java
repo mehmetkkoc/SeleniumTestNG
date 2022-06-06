@@ -2,7 +2,7 @@ package tests.day19_smokeTest;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.BrcPage;
+import tests.day22_crossBrowser.pages.BrcPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 

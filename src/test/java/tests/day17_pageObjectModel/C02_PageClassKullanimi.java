@@ -3,7 +3,7 @@ package tests.day17_pageObjectModel;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.AmazonPage;
+import tests.day22_crossBrowser.pages.AmazonPage;
 import utilities.Driver;
 
 

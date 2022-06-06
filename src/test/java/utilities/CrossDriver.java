@@ -11,17 +11,12 @@ import org.openqa.selenium.safari.SafariDriver;
 import java.time.Duration;
 
 public class CrossDriver {
-
     private CrossDriver() {
-
     }
-
     static WebDriver driver;
-
     public static WebDriver getDriver(String browser) {
 
         browser=browser==null? ConfigReader.getProperty("browser") : browser;
-
         if (driver == null) {
             switch (browser) {
                 case "chrome":
@@ -44,11 +39,9 @@ public class CrossDriver {
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
             }
-
         }
         return driver;
     }
-
     public static void closeDriver() {
         if (driver != null) { // driver'a deger atanmissa
             driver.close();

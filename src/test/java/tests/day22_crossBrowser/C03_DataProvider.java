@@ -4,7 +4,7 @@ import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pages.AmazonPage;
+import tests.day22_crossBrowser.pages.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 

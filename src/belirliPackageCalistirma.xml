@@ -11,4 +11,4 @@
             <class name="tests.day19_smokeTest.NegativeLoginTest"></class>
         </classes>
     </test>
-</suite>       
+</suite>

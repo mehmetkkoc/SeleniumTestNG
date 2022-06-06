@@ -2,10 +2,9 @@ package tests.day21_reusableMethods_HtmlReports;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.BrcPage;
+import tests.day22_crossBrowser.pages.BrcPage;
 import utilities.ConfigReader;
 import utilities.Driver;
-import utilities.TestBase;
 import utilities.TestBaseRapor;
 
 public class C03_PositifLoginTestiRaporlu extends TestBaseRapor {

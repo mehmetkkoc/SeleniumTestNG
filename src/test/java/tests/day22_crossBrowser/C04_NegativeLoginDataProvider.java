@@ -3,7 +3,7 @@ package tests.day22_crossBrowser;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pages.BrcPage;
+import tests.day22_crossBrowser.pages.BrcPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 

@@ -2,7 +2,7 @@ package tests.day18_pom;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.FacebookPage;
+import tests.day22_crossBrowser.pages.FacebookPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 

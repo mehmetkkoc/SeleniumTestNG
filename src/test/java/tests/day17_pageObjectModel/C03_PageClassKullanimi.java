@@ -3,7 +3,7 @@ package tests.day17_pageObjectModel;
 import com.github.javafaker.Faker;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.FacebookPage;
+import tests.day22_crossBrowser.pages.FacebookPage;
 import utilities.Driver;
 
 

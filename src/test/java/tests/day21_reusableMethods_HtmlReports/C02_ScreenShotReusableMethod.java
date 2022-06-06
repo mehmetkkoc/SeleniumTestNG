@@ -1,7 +1,6 @@
 package tests.day21_reusableMethods_HtmlReports;
 
 import org.testng.annotations.Test;
-import pages.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
